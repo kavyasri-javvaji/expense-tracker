@@ -1,0 +1,8 @@
+streamlit
+flask
+pandas
+numpy
+plotly
+requests
+python-dotenv
+fpdf2
