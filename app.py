@@ -187,7 +187,6 @@ if not st.session_state.get("logged_in"):
                 st.rerun()
             else:
                 st.error("Wrong username or password.")
-    st.info(f"Demo login: username **{DEMO_USER}**, password **{DEMO_PASSWORD}**")
     st.stop()  # nothing below runs until the user is logged in
 
 # ---------- Header banner and sidebar ----------
